@@ -2,7 +2,7 @@
 //  yelp_business_implementationUITestsLaunchTests.swift
 //  yelp_business_implementationUITests
 //
-//  Created by Muhammad Vicky on 23/05/23.
+//  Created by Naratama on 23/05/23.
 //
 
 import XCTest

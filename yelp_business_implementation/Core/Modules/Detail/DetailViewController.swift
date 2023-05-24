@@ -1,5 +1,5 @@
 //
-//  ListViewController.swift
+//  DetailViewController.swift
 //  yelp_business_implementation
 //
 //  Created by Naratama on 23/05/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ListViewController: UIViewController {
+class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +16,3 @@ class ListViewController: UIViewController {
 
 
 }
-

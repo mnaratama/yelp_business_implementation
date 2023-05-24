@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA075D0D2A1D1CE7006BD4F2 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA075D0C2A1D1CE7006BD4F2 /* Detail.storyboard */; };
+		CA075D0F2A1D1CFC006BD4F2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA075D0E2A1D1CFC006BD4F2 /* DetailViewController.swift */; };
 		CA0D261D2A1C9A45006FAD4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D261C2A1C9A45006FAD4C /* AppDelegate.swift */; };
 		CA0D26212A1C9A45006FAD4C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D26202A1C9A45006FAD4C /* ListViewController.swift */; };
 		CA0D26242A1C9A45006FAD4C /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0D26222A1C9A45006FAD4C /* List.storyboard */; };
@@ -22,6 +24,13 @@
 		CA0D265F2A1D09CA006FAD4C /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D265E2A1D09CA006FAD4C /* NavigationBar.swift */; };
 		CA0D26622A1D0A04006FAD4C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D26612A1D0A04006FAD4C /* Constants.swift */; };
 		CA0D26652A1D0A43006FAD4C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D26642A1D0A43006FAD4C /* Extension.swift */; };
+		CA4447BD2A1DEAC400BC592D /* ListBusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4447BC2A1DEAC400BC592D /* ListBusinessModel.swift */; };
+		CA4447C42A1DEAFF00BC592D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4447BE2A1DEAFE00BC592D /* Categories.swift */; };
+		CA4447C52A1DEAFF00BC592D /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4447BF2A1DEAFE00BC592D /* Center.swift */; };
+		CA4447C62A1DEAFF00BC592D /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4447C02A1DEAFE00BC592D /* Region.swift */; };
+		CA4447C72A1DEAFF00BC592D /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4447C12A1DEAFE00BC592D /* Coordinates.swift */; };
+		CA4447C82A1DEAFF00BC592D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4447C22A1DEAFF00BC592D /* Location.swift */; };
+		CA4447C92A1DEAFF00BC592D /* Businesses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4447C32A1DEAFF00BC592D /* Businesses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA075D0C2A1D1CE7006BD4F2 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		CA075D0E2A1D1CFC006BD4F2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CA0D26192A1C9A45006FAD4C /* yelp_business_implementation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yelp_business_implementation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0D261C2A1C9A45006FAD4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA0D26202A1C9A45006FAD4C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +72,13 @@
 		CA0D265E2A1D09CA006FAD4C /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		CA0D26612A1D0A04006FAD4C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CA0D26642A1D0A43006FAD4C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CA4447BC2A1DEAC400BC592D /* ListBusinessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBusinessModel.swift; sourceTree = "<group>"; };
+		CA4447BE2A1DEAFE00BC592D /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		CA4447BF2A1DEAFE00BC592D /* Center.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		CA4447C02A1DEAFE00BC592D /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		CA4447C12A1DEAFE00BC592D /* Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		CA4447C22A1DEAFF00BC592D /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		CA4447C32A1DEAFF00BC592D /* Businesses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Businesses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +264,8 @@
 		CA0D26672A1D0F14006FAD4C /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				CA075D0C2A1D1CE7006BD4F2 /* Detail.storyboard */,
+				CA075D0E2A1D1CFC006BD4F2 /* DetailViewController.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -269,6 +289,13 @@
 		CA0D266A2A1D106F006FAD4C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CA4447C32A1DEAFF00BC592D /* Businesses.swift */,
+				CA4447BE2A1DEAFE00BC592D /* Categories.swift */,
+				CA4447BF2A1DEAFE00BC592D /* Center.swift */,
+				CA4447C12A1DEAFE00BC592D /* Coordinates.swift */,
+				CA4447C22A1DEAFF00BC592D /* Location.swift */,
+				CA4447C02A1DEAFE00BC592D /* Region.swift */,
+				CA4447BC2A1DEAC400BC592D /* ListBusinessModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -380,6 +407,7 @@
 				CA0D262C2A1C9A49006FAD4C /* LaunchScreen.storyboard in Resources */,
 				CA0D26292A1C9A49006FAD4C /* Assets.xcassets in Resources */,
 				CA0D26242A1C9A45006FAD4C /* List.storyboard in Resources */,
+				CA075D0D2A1D1CE7006BD4F2 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,13 +434,21 @@
 			files = (
 				CA0D26652A1D0A43006FAD4C /* Extension.swift in Sources */,
 				CA0D265A2A1D098A006FAD4C /* BaseViewController.swift in Sources */,
+				CA4447C82A1DEAFF00BC592D /* Location.swift in Sources */,
+				CA4447C92A1DEAFF00BC592D /* Businesses.swift in Sources */,
 				CA0D26572A1D0919006FAD4C /* NetworkAccessLayer.swift in Sources */,
 				CA0D265C2A1D09A8006FAD4C /* RoundedView.swift in Sources */,
+				CA075D0F2A1D1CFC006BD4F2 /* DetailViewController.swift in Sources */,
+				CA4447C42A1DEAFF00BC592D /* Categories.swift in Sources */,
 				CA0D26212A1C9A45006FAD4C /* ListViewController.swift in Sources */,
 				CA0D265F2A1D09CA006FAD4C /* NavigationBar.swift in Sources */,
+				CA4447BD2A1DEAC400BC592D /* ListBusinessModel.swift in Sources */,
+				CA4447C72A1DEAFF00BC592D /* Coordinates.swift in Sources */,
 				CA0D261D2A1C9A45006FAD4C /* AppDelegate.swift in Sources */,
 				CA0D26272A1C9A45006FAD4C /* yelp_business_implementation.xcdatamodeld in Sources */,
+				CA4447C62A1DEAFF00BC592D /* Region.swift in Sources */,
 				CA0D26622A1D0A04006FAD4C /* Constants.swift in Sources */,
+				CA4447C52A1DEAFF00BC592D /* Center.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

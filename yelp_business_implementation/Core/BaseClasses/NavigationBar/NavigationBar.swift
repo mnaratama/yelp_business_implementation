@@ -2,7 +2,7 @@
 //  NavigationBar.swift
 //  yelp_business_implementation
 //
-//  Created by Muhammad Vicky on 23/05/23.
+//  Created by Naratama on 23/05/23.
 //
 
 import UIKit
